@@ -1,0 +1,37 @@
+main {
+    .eslogan {
+        line-height: 25px;
+        padding: 1.5rem;
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: x-large;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .miPortafolio {
+        display: block;
+        font-size: larger;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        font-weight: bold;
+        border: solid black;
+        text-decoration: none;
+        color: black;
+        background-color: rgba(167, 104, 104, 0.4);
+        width: 190px;
+        text-align: center;
+        margin: auto;
+        padding: 3px;
+        margin-top: 4rem;
+        align-content: center;
+        border-radius: 5px;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.contenedorQuien{
+    width: 75%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 6px;
+    background: rgb(239, 162, 217);
+    box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+.contenedorQuien:hover{
+    transition: 3s;
+    background-color: #8e2dfd;
+}
+
+.tituloQuien{
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

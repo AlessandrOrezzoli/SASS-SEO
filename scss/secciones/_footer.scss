@@ -1,0 +1,25 @@
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(to right, rgb(241, 211, 211), white);
+
+    ul {
+        display: flex;
+        justify-content: center;
+        padding: 0rem;
+        margin: 0rem;
+
+        li {
+            list-style-type: none;
+            align-items: center;
+            padding: 5px;
+            text-decoration: none;
+            margin-bottom: 0rem;
+
+        }
+    }
+}

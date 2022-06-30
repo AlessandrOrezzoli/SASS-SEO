@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    /* height: 100vh; */
+    position: relative;
+    /* padding-bottom: 3em; */
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content auto 4rem;
+}
+
+.fondo__index {
+    background-image: url(../img/blog_4_original-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
