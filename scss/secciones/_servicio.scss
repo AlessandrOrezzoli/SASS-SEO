@@ -1,17 +1,31 @@
 /* main de servicio */
+.tabla{
 
-.contenedorTabla{
-    display: grid;
-    /* background-color: rgba(249, 189, 189, 0.295) ; */
-    grid-template-columns: 220px 350px;
-    align-content: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 15px;
-    grid-row-gap: 20px;
-    align-items: center;
-}
+    &_contenedor{
+        align-content: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 15px;
+        align-items: center;
+        &--card{
+        border: 1px solid black;
+        border-radius: 5px;   
+        padding: 1rem;    
+        margin: 2rem;
+        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.248);
+        background-color: rgba(241, 211, 211, 0.426);
+    }
+    }
 
-main div h3{
-    font-size: 1rem;
-}
+    &_titulo{
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 1rem;
+        &--item{
+            padding: .4rem 2rem;
+            text-align: center;
+        }
+    }
+
+}    
+
