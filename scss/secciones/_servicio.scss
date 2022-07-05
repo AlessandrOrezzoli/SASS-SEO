@@ -1,31 +1,37 @@
 /* main de servicio */
-.tabla{
+.tabla {
+    width: 100%;
 
-    &_contenedor{
+    &_contenedor {
         align-content: center;
         justify-content: center;
         margin: 10px;
         padding: 15px;
         align-items: center;
-        &--card{
-        border: 1px solid black;
-        border-radius: 5px;   
-        padding: 1rem;    
-        margin: 2rem;
-        box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.248);
-        background-color: rgba(241, 211, 211, 0.426);
-    }
-    }
 
-    &_titulo{
-        font-size: 1.3rem;
-        text-align: center;
-        padding: 1rem;
-        &--item{
-            padding: .4rem 2rem;
-            text-align: center;
+        &--card {
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 2rem;
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.248);
+            background-color: rgba(241, 211, 211, 0.426);
+            width: 30rem;
+            background: linear-gradient(#00E5FF, #B400FB);
+            animation: animate 5s linear infinite;
         }
     }
 
-}    
+    &_titulo {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 1rem;
 
+        &--item {
+            padding: .4rem 2rem;
+            text-align: center;
+            margin: none;
+        }
+    }
+
+}
