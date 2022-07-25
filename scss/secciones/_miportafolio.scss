@@ -1,6 +1,25 @@
 /* main mi portafolio */
-.mainPortafolio{
+.mainPortafolio {
     display: flex;
     justify-content: center;
     margin-top: 2.5rem;
+    width: 100%;
+    
 }
+
+.tituloPortafolio {
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Pacifico', cursive;
+}
+
+.carouselImagen{
+    border: 4.5px solid;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.imagenStyle{
+    border-radius: 7px;
+}
+

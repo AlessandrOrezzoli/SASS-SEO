@@ -1,7 +1,6 @@
 /* main de servicio */
 .tabla {
     width: 100%;
-
     &_contenedor {
         align-content: center;
         justify-content: center;
@@ -17,8 +16,7 @@
             box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.248);
             background-color: rgba(241, 211, 211, 0.426);
             width: 30rem;
-            background: linear-gradient(#00E5FF, #B400FB);
-            animation: animate 5s linear infinite;
+            // background: linear-gradient(#00E5FF, #B400FB);
         }
     }
 
