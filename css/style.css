@@ -63,16 +63,16 @@ footer {
       margin-bottom: 0rem; }
 
 main .tituloIndex {
-  line-height: 25px;
   padding: 1rem;
   margin-top: 1.5rem;
   display: flex;
   justify-content: center;
   text-align: center;
   color: black;
-  font-size: 75px;
+  font-size: 65px;
   font-weight: bold;
-  font-family: 'Pacifico', cursive; }
+  font-family: 'Pacifico', cursive;
+  width: 100%; }
 
 main .eslogan {
   line-height: 25px;
